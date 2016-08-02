@@ -9,6 +9,6 @@ import scrapy
 
 
 class JavspiderItem(scrapy.Item):
-    number = scrapy.Field()
+    code = scrapy.Field()
     title = scrapy.Field()
     cover = scrapy.Field()
